@@ -69,7 +69,7 @@
             @csrf
             <div class="form-group mb-3">
                 <label for="user_name" class="form-label">Mobile Number</label>
-                <input type="text" name="user_name" id="user_name" class="form-control" placeholder="Enter mobile number" required>
+                <input type="text" name="user_name" id="user_name" class="form-control" placeholder="Enter yourr mobile number" required>
                 @error('user_name')
                     <div class="text-danger mt-2">{{ $message }}</div>
                 @enderror
