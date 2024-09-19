@@ -63,13 +63,13 @@
 <body>
     <div class="login-card">
     <img src="{{ asset('images/stock-logo.jpg') }}" alt="Stock Pathshala" class="brand-logo">
-        <h3>Login to Stock Pathshala Wth github actions</h3>
+        <h3>Login to Stock Pathshala</h3>
 
         <form action="{{ route('login.submit') }}" method="POST">
             @csrf
             <div class="form-group mb-3">
                 <label for="user_name" class="form-label">Mobile Number</label>
-                <input type="text" name="user_name" id="user_name" class="form-control" placeholder="Enter your mobile number" required>
+                <input type="text" name="user_name" id="user_name" class="form-control" placeholder="Enter mobile number" required>
                 @error('user_name')
                     <div class="text-danger mt-2">{{ $message }}</div>
                 @enderror
