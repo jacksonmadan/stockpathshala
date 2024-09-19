@@ -63,7 +63,7 @@
 <body>
     <div class="login-card">
     <img src="{{ asset('images/stock-logo.jpg') }}" alt="Stock Pathshala" class="brand-logo">
-        <h3>Login to Stock Pathshala</h3>
+        <h3>Login to Stock Pathshala Wth github actions</h3>
 
         <form action="{{ route('login.submit') }}" method="POST">
             @csrf
